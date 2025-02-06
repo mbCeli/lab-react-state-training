@@ -4,7 +4,7 @@ export default function Counter() {
     const [counter, setCounter] = useState(0);
 
     const counterUp = () => {
-        setCounter(counter => counter + 1)
+        setCounter((counter) => counter + 1)
     };
 
     const counterDown = () => {
